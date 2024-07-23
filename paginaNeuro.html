@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>La primera</title>
+    <style>
+        body {
+            background-color: lightblue;
+            max-width: fit-content;
+        }
+
+        header {
+            margin: 4%;
+            display: flex;
+            justify-content: center;
+            font-size: 40px ;
+            font-weight: 400;
+        }
+
+        .Contenido {
+            display: flex;
+            width: 100%;
+            margin: auto;
+            align-items: flex-start;
+            justify-content: space-between;
+            margin-left: 4px;
+        }
+
+       .Contenido img {
+            max-width: 600px;
+            margin: 20px;
+        }
+
+        .Texto > p {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            background-color: bisque;
+            border-radius: 20px;
+            padding: 1%;
+            margin-bottom: 20px;
+        }
+
+        .Subtexto > p {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            background-color: bisque;
+            border-radius: 20px;
+            padding: 1%;
+        }
+
+        .Text-container{
+            display: flex;
+            flex-direction: column;
+        }
+
+    </style>
+    <header>Neurociencias Interesantes</header>
+</head>
+<body>
+    <div class="Contenido">
+        <img src="https://images.unsplash.com/photo-1704865327435-9c547380f0fb?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D.jpg" alt="philoshopy">
+        <div class="Text-container">
+            <div class="Texto">
+                <p>Las Neurociencias están enfocadas en comprender el funcionamiento de nuestro cerebro y su impacto en la conducta</p>
+                <p>Nace del pensamiento de los filósofos por identificar la razón detrás del comportamiento humano</p>
+                <p>Su influencia llevó a grandes pensadores a intentar comprender el significado y relación de esto</p>
+            </div>
+            <div class="Subtexto">
+                <p>Descartes (1596 - 1650) describía la mente como <b>algo inmaterial que no ocupaba lugar en el espacio.</b></p>
+                <p>La idea del <b>dualismo</b> viene a considerar que la mente y el cuerpo están separados pero pueden interactuar.</p>
+                <p>Descartes también atribuyó funciones a distintas partes del cerebro. <strong>Situó el lugar operativo de la mente en la Glándula Pineal</strong></p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
