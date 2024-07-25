@@ -10,7 +10,7 @@
         body {
             font-family: "Open Sans", sans-serif;
             background-color: lightblue;
-            max-width: fit-content;
+            /* max-width: fit-content; */
         }
 
         header {
@@ -23,27 +23,25 @@
 
         .Contenido {
             display: flex;
-            width: 600px;
-            margin: auto;
+            width: 90%;
+            margin-left: 40px;
             align-items: flex-start;
             justify-content: space-between;
-            margin-left: 4px;
         }
 
        .Contenido img {
             max-width: 600px;
             margin: 20px;
         }
+        
+        .Text-container{
+            display: flex;
+            flex-direction: column;
+            margin-top: 1.5rem;
+        }
 
         .Texto > p {
             background-color: bisque;
-            border-radius: 20px;
-            padding: 1%;
-            margin-bottom: 20px;
-        }
-
-        .Subtexto:hover > p , .Texto:hover > p {
-            background-color: dimgrey;
             border-radius: 20px;
             padding: 1%;
             margin-bottom: 20px;
@@ -55,10 +53,26 @@
             padding: 1%;
         }
 
-        .Text-container{
-            display: flex;
-            flex-direction: column;
+        .Texto p:hover:nth-child(1){
+            background-color: #E2CAAE;
         }
+        .Texto p:hover:nth-child(2){
+            background-color: #E2CAAE;
+        }
+        .Texto p:hover:nth-child(3){
+            background-color: #E2CAAE;
+        }
+        
+        .Subtexto p:hover:nth-child(1){
+            background-color: #E2CAAE;
+        }
+        .Subtexto p:hover:nth-child(2){
+            background-color: #E2CAAE;
+        }
+        .Subtexto p:hover:nth-child(3){
+            background-color: #E2CAAE;
+        }
+        
 
         .Cont-datos {
             display: grid;
