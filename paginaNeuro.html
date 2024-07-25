@@ -23,7 +23,7 @@
 
         .Contenido {
             display: flex;
-            width: 100%;
+            width: 600px;
             margin: auto;
             align-items: flex-start;
             justify-content: space-between;
@@ -60,6 +60,21 @@
             flex-direction: column;
         }
 
+        .Cont-datos {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            grid-template-rows: 1fr;
+            background-color: pink;
+        }
+
+        .Cont-datos p:nth-child(2){
+            grid-column: 2 / 3;
+        }
+
+        .Cont-datos p:nth-child(3){
+            grid-column: 3 / 4;
+        }
+
     </style>
     <header>Neurociencias Interesantes</header>
 </head>
@@ -78,6 +93,11 @@
                 <p>Descartes también atribuyó funciones a distintas partes del cerebro. <strong>Situó el lugar operativo de la mente en la Glándula Pineal</strong></p>
             </div>
         </div>
+    </div>
+    <div class="Cont-datos">
+        <p>La mayorías de los Neuropsicólogos son materialistas y sostienen que los términos mente y cerebro son dos palabras diferentes que describen lo mismo.</p>
+        <p>El cerebro es una de las características comunes que poseen las especies animales. Es una adaptación que surgió sólo una vez en la evolución.</p>
+        <p>Flourens descubrió que ciertas funciones se localizaban en algunas zonas del tronco encefálico. Observó qué el tronco encefálico desempeña un papel importante en la respiración porque los animales sufrían asfixia si se lesionaban este.</p>
     </div>
 </body>
 </html>

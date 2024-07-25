@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        p {
+            color: blue;
+        }
+
+        p:hover {
+            color: red;   
+        }
+
+        p::first-letter{
+            color: aquamarine;
+        }
+
+        p::before{
+            content: "🧠";
+        }
+
+        p::after{
+            content: "👽";
+        }
+
+        div p:nth-child(3){
+            color: aquamarine;
+        }
+
+        input::placeholder{
+            color: blue;
+        }
+    </style>
+</head>
+<body>
+    <p>Esto cambiará de color</p>
+    <div>
+        <p>Trabaja</p>
+        <p>con</p>
+        <p>nth-child</p>
+        <p>para</p>
+        <p>elegir al hijo</p>
+        
+    </div>
+    <input type="text" placeholder="name">
+</body>
+</html>
