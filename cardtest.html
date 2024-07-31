@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Card</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Hand:wght@400..700&display=swap');
+
+        body {
+            background-color: #D959C3;
+            font-family: "Edu Australia VIC WA NT Hand", cursive;
+        }
+    
+
+       section{
+            display: flex;
+            justify-content: center;
+            margin-top: 60px;
+        }
+
+        .Card {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            background-color: #D95977;
+            width: 600px;
+            height: 700px;
+            border-radius: 20px;
+            overflow: hidden;
+        }
+
+        .Card img {
+            width: 100%;
+            height: 60%;
+            object-fit: cover;
+        }
+
+        .Etiqueta {
+            position: relative;
+            top: -3.5rem;
+            text-align: center;
+            width: 140px;
+            height: 140px;
+            background-color: #9159D9;
+            border-radius: 100% ;
+            border: 4px solid white;
+            overflow: hidden;
+        }
+
+        .Etiqueta img{
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        .Cita{
+            font-size: 20px;
+            font-weight: 700;
+            color: white;
+        }
+
+    </style>
+</head>
+<body>
+    <section>
+        <div class="Card">
+            <img src="https://images.unsplash.com/photo-1722195255633-a88675d20722?q=80&w=1430&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="fotico">
+            <div class="Etiqueta">
+                <img src="/img/Antonio.jpeg" alt="profile-img">
+            </div>
+            <div class="Cita">
+                <span>"El futuro ya ha pasado, téngalo siempre presente."</span>
+            </div>
+        </div>
+    </section>
+</body>
+</html>

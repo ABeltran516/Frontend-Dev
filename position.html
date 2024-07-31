@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Position</title>
+    <style>
+        html, body {
+            width: 100%;
+            height: 100%;
+        }
+        
+        body {
+            background-color: #FAB107;
+        }
+
+        nav {
+            display: flex;
+            position: fixed;
+            width: 100%;
+            height: 60px; 
+            background-color: #A6863C;
+            z-index: 9;
+        }
+        
+        .Container{
+            background-color: #7A6941;
+            width: 100%;
+            height: 400px;
+            position: relative;
+            top: 65px;
+            z-index: 8; 
+        }
+
+        .Object{
+            width: 600px;
+            height: 250px;
+            background-color: #CF9D29;
+            position: absolute;
+            top: 40px;
+            left: 60px
+        }
+
+        p {
+            position: sticky;
+            margin-top: 100px ;
+        }
+
+    </style>
+</head>
+<body>
+    <nav>
+        <span class="Home">Home</span>
+        <span class="Lecturas">Lecturas</span>
+        <span class="About">Sobre este proyecto</span>
+    </nav>
+    <div class="Container">
+        <span class="Object"></span>
+    </div>
+    <p>Lorem Ipsum
+        "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit..."
+        "There is no one who loves pain itself, who seeks after it and wants to have it, simply because it is pain..."
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum tristique orci et quam mollis scelerisque. Morbi tempor et ipsum tincidunt elementum. Quisque sit amet turpis facilisis, pulvinar nulla ac, sagittis enim. Pellentesque bibendum sapien libero, at suscipit tellus posuere ac. Nulla facilisi. Fusce vehicula tortor a nulla hendrerit vulputate. Vestibulum blandit dapibus massa, ullamcorper dignissim neque. In placerat sem neque, vehicula lobortis diam eleifend eget. In placerat mauris non euismod placerat. Mauris tellus ante, aliquam ut ante vitae, tempus ultrices quam.        
+        Donec commodo mauris sed eros molestie rutrum nec vel sapien. Sed ornare placerat massa. Donec maximus in felis quis eleifend. Mauris vitae nunc cursus, lobortis mi at, mattis purus. Ut mattis malesuada finibus. Vivamus quis velit id risus gravida dapibus. Donec accumsan gravida purus, ac rutrum quam tincidunt ut. Pellentesque hendrerit dui et imperdiet facilisis. Quisque facilisis tellus purus, id lacinia lectus sollicitudin ut.
+        Vestibulum dictum ornare risus a vehicula. Nulla nibh nisi, convallis nec mollis congue, pellentesque a diam. Praesent a dui vulputate, varius turpis non, sollicitudin dolor. Curabitur vel maximus tellus, at porta sem. Phasellus at diam vitae felis finibus luctus sit amet at leo. Aliquam tincidunt sem eu turpis lobortis volutpat. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque vitae erat eget arcu fermentum efficitur. Vestibulum sed efficitur turpis, in consequat elit. Nulla tincidunt sapien at urna egestas, quis condimentum dolor elementum. Etiam hendrerit, mauris sit amet suscipit elementum, dolor metus mollis elit, eu accumsan ipsum neque in massa. Nullam sit amet tristique nibh, sit amet mollis nisi. Nulla non urna posuere ex posuere malesuada vitae at ante. Etiam elementum mi vitae magna sagittis lacinia. Cras bibendum molestie magna, id mollis neque aliquam scelerisque. Sed laoreet ipsum vel neque viverra, non commodo orci imperdiet.
+        Vestibulum venenatis vitae lacus vitae pretium. Suspendisse congue pellentesque feugiat. Nam euismod porttitor arcu, vitae consequat est. Etiam id dolor libero. Sed lacinia urna quis odio tristique, vitae iaculis elit tincidunt. Etiam lobortis sagittis ex. Nullam gravida, dolor non condimentum fringilla, nulla felis iaculis metus, vel maximus lorem dui rutrum magna. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Donec ut mauris nulla. Aliquam porttitor tincidunt enim, vel vulputate sem semper vel. Pellentesque egestas elit non felis iaculis, in tincidunt quam ornare. Pellentesque id purus odio. Fusce ac nunc aliquet, pellentesque justo vitae, vulputate lectus.
+        Maecenas malesuada auctor malesuada. Sed rutrum id magna eu vulputate. Pellentesque sollicitudin mi eu nulla pulvinar, at maximus nunc facilisis. Vivamus commodo cursus enim quis mollis. Mauris scelerisque nunc in dictum placerat. Ut maximus neque sit amet neque mattis, ac tincidunt felis molestie. Suspendisse massa sem, posuere et tincidunt vitae, consectetur id arcu. Nulla facilisi. Proin rhoncus, felis nec convallis sodales, massa velit maximus turpis, id bibendum tellus quam sed erat. Proin pulvinar elit a imperdiet sagittis.
+    </p>
+   
+</body>
+</html>

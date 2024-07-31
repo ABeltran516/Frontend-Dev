@@ -1,0 +1,11 @@
+#Ignora los siguientes archivos
+*.jpg
+*.jpeg
+*.gif
+*.svg
+
+#Ignora estos directorios 
+
+node_modules/
+dist/
+.env
